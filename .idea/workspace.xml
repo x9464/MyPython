@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="385b44be-1a6a-4a54-bdc3-aa8fbb56f1de" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/numCal.py" afterDir="false" />
+    <list default="true" id="385b44be-1a6a-4a54-bdc3-aa8fbb56f1de" name="Default Changelist" comment="有规律的数字计算">
+      <change afterPath="$PROJECT_DIR$/onlyOnce.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nKOuD7OZEHPGWUqm6ngNKeNAie" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.numCal">
+  <component name="RunManager" selected="Python.onlyOnce">
     <configuration name="numCal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +61,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numCal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="onlyOnce" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/onlyOnce.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,8 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.numCal" />
+        <item itemvalue="Python.onlyOnce" />
         <item itemvalue="Python.test1" />
+        <item itemvalue="Python.numCal" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611135535331</updated>
-      <workItem from="1611135537451" duration="4571000" />
+      <workItem from="1611135537451" duration="9090000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1611138662067</created>
@@ -113,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611138662067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="有规律的数字计算">
+      <created>1611140685282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611140685282</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +166,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="有规律的数字计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="有规律的数字计算" />
   </component>
   <component name="WindowStateProjectService">
     <state x="388" y="0" key="CommitChangelistDialog2" timestamp="1611138583284">
@@ -143,37 +178,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="819" y="204" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611138330408" />
-    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1611140583232">
+    <state width="619" height="210" key="GridCell.Tab.0.bottom" timestamp="1611203977253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611140583232" />
-    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1611140583232">
+    <state width="619" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611203977253" />
+    <state width="619" height="210" key="GridCell.Tab.0.center" timestamp="1611203977253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611140583232" />
-    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1611140583232">
+    <state width="619" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611203977253" />
+    <state width="619" height="210" key="GridCell.Tab.0.left" timestamp="1611203977253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611140583232" />
-    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1611140583232">
+    <state width="619" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611203977253" />
+    <state width="619" height="210" key="GridCell.Tab.0.right" timestamp="1611203977253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611140583232" />
+    <state width="619" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611203977253" />
     <state x="540" y="93" key="SettingsEditor" timestamp="1611136576102">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="93" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611136576102" />
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1611138676740">
+    <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1611140689599">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611138676740" />
+    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611140689599" />
     <state x="955" y="322" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611136309354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="955" y="322" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611136309354" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/test$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1611139221671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test$numCal.coverage" NAME="numCal Coverage Results" MODIFIED="1611140583225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$onlyOnce.coverage" NAME="onlyOnce Coverage Results" MODIFIED="1611203977245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1611202941861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$numCal.coverage" NAME="numCal Coverage Results" MODIFIED="1611140812300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
