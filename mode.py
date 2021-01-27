@@ -7,8 +7,11 @@
 
 import random
 getNum = input()
-if getNum == 'GET':
-    ran = random.randint(100000, 999999)
-    print(ran)
-elif getNum != 'GET':
-    print("输入错误！！！")
+while 1:
+    if getNum == 'GET':
+        ran = random.randint(100000, 999999)
+        print(ran)
+        break
+    elif getNum != 'GET':
+        print("输入错误,请重新输入！")
+        getNum = input()
