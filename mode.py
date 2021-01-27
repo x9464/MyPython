@@ -9,4 +9,6 @@ import random
 getNum = input()
 if getNum == 'GET':
     ran = random.randint(100000, 999999)
-print(ran)
+    print(ran)
+elif getNum != 'GET':
+    print("输入错误！！！")
