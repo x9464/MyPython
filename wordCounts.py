@@ -5,14 +5,20 @@
 # @Software : PyCharm
 
 
+import re
+
+
 def main():
-    f = open('e:\\demo.txt', 'r')
-    for line in f:
-        words = line.split()
-        # print(words)
+    with open('e:\\demo.txt', 'r') as f:
+        arr = []
+        for line in f:
+            arr.append(line)
+    words = "".join(arr)
+    words = words.replace(',', '').replace('.', '')
+    arr = words.split()
     word = input()
     count = 0
-    for i in words:
+    for i in arr:
         if word == i:
             count += 1
     print("{}在文件中出现了{}次".format(word, count))
