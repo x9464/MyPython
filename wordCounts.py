@@ -9,13 +9,16 @@ import re
 
 
 def main():
-    with open('e:\\demo.txt', 'r') as f:
+    with open('e:\\par\demo.txt', 'r') as f:
         arr = []
         for line in f:
             arr.append(line)
     words = "".join(arr)
     words = words.replace(',', '').replace('.', '')
+    print(words)
+    print(arr)
     arr = words.split()
+    print(arr)
     word = input()
     count = 0
     for i in arr:
