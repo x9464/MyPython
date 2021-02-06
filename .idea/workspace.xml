@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="385b44be-1a6a-4a54-bdc3-aa8fbb56f1de" name="Default Changelist" comment="code">
-      <change afterPath="$PROJECT_DIR$/grade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numSum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.grade">
+  <component name="RunManager" selected="Python.numSum">
     <configuration name="catchEx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="swap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="numSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,7 +147,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.numSum" />
         <item itemvalue="Python.grade" />
         <item itemvalue="Python.catchEx" />
         <item itemvalue="Python.maxNum" />
         <item itemvalue="Python.hwNnm" />
-        <item itemvalue="Python.swap" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,7 @@
       <workItem from="1611719978385" duration="9161000" />
       <workItem from="1611900474751" duration="9296000" />
       <workItem from="1612234353374" duration="2520000" />
-      <workItem from="1612579181925" duration="4355000" />
+      <workItem from="1612579181925" duration="5328000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1611138662067</created>
@@ -301,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612592576154</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="code">
+      <created>1612593425649</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612593425649</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,38 +342,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="819" y="204" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612259995907" />
-    <state width="1478" height="255" key="GridCell.Tab.0.bottom" timestamp="1612593144582">
+    <state width="1478" height="255" key="GridCell.Tab.0.bottom" timestamp="1612594116367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612593144582" />
-    <state width="1478" height="255" key="GridCell.Tab.0.center" timestamp="1612593144582">
+    <state width="1478" height="255" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612594116367" />
+    <state width="1478" height="255" key="GridCell.Tab.0.center" timestamp="1612594116366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612593144582" />
-    <state width="1478" height="255" key="GridCell.Tab.0.left" timestamp="1612593144582">
+    <state width="1478" height="255" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612594116366" />
+    <state width="1478" height="255" key="GridCell.Tab.0.left" timestamp="1612594116366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612593144582" />
-    <state width="1478" height="255" key="GridCell.Tab.0.right" timestamp="1612593144582">
+    <state width="1478" height="255" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612594116366" />
+    <state width="1478" height="255" key="GridCell.Tab.0.right" timestamp="1612594116367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612593144582" />
-    <state width="606" height="212" key="GridCell.Tab.1.bottom" timestamp="1611551064753">
+    <state width="1478" height="255" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612594116367" />
+    <state width="1478" height="258" key="GridCell.Tab.1.bottom" timestamp="1612593364386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="606" height="212" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611551064753" />
-    <state width="606" height="212" key="GridCell.Tab.1.center" timestamp="1611551064752">
+    <state width="1478" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612593364386" />
+    <state width="1478" height="258" key="GridCell.Tab.1.center" timestamp="1612593364386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="606" height="212" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611551064752" />
-    <state width="606" height="212" key="GridCell.Tab.1.left" timestamp="1611551064742">
+    <state width="1478" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1612593364386" />
+    <state width="1478" height="258" key="GridCell.Tab.1.left" timestamp="1612593364386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="606" height="212" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611551064742" />
-    <state width="606" height="212" key="GridCell.Tab.1.right" timestamp="1611551064752">
+    <state width="1478" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1612593364386" />
+    <state width="1478" height="258" key="GridCell.Tab.1.right" timestamp="1612593364386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="606" height="212" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611551064752" />
+    <state width="1478" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1612593364386" />
     <state x="1050" y="114" key="RollbackChangesDialog" timestamp="1611908334721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -375,10 +382,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611720107820" />
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1612592603617">
+    <state x="722" y="148" key="Vcs.Push.Dialog.v2" timestamp="1612593428302">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612592603617" />
+    <state x="722" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612593428302" />
     <state x="955" y="322" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611136309354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -391,6 +398,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test$onlyOnce.coverage" NAME="onlyOnce Coverage Results" MODIFIED="1611203977245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$oddNum.coverage" NAME="oddNum Coverage Results" MODIFIED="1611733970210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$numSum.coverage" NAME="numSum Coverage Results" MODIFIED="1612594292425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$maxNum.coverage" NAME="maxNum Coverage Results" MODIFIED="1612591848623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$loginin.coverage" NAME="loginin Coverage Results" MODIFIED="1611732077652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test$numCal.coverage" NAME="numCal Coverage Results" MODIFIED="1611140812300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
